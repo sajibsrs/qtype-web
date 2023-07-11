@@ -1,6 +1,6 @@
-import { Key } from "./types";
+import { KeyExtended } from "./types";
 
-const keyMap: Array<Key> = [
+const keyMap: Array<KeyExtended> = [
     {
         code: 'KeyA',
         regular: { initial: 0x0986, shift: 0x09be },

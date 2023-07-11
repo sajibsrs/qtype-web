@@ -5,6 +5,11 @@ type KeyType = {
 
 type Key = {
     code: string,
+    value: number,
+};
+
+type KeyExtended = {
+    code: string,
     regular: KeyType,
     modified: KeyType;
 };
@@ -16,6 +21,7 @@ type Modifiers = {
 
 export type {
     Key,
+    KeyExtended,
     KeyType,
     Modifiers,
 };

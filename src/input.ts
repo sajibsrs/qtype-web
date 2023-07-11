@@ -1,5 +1,5 @@
 import keyMap from "./keymap";
-import { Key, Modifiers } from "./types";
+import { Key, KeyExtended, Modifiers } from "./types";
 
 export function setupInput(input: HTMLInputElement, output: HTMLParagraphElement) {
     const modifiers: Modifiers = {
@@ -12,10 +12,15 @@ export function setupInput(input: HTMLInputElement, output: HTMLParagraphElement
     const setText = (currentCode: string) => {
         const key = getKey(currentCode, modifiers, keyMap);
 
-        if (key !== 0) {
-            const character = String.fromCharCode(key);
-            text += character;
-            console.log(character)
+        if (key.value !== 0) {
+            if (key.code === 'Backspace') {
+                text = text.slice(0, -1);
+            } else {
+                const character = String.fromCharCode(key.value);
+                text += character;
+                console.log(character)
+            }
+
         }
         output.innerHTML = `${text}`;
     }
@@ -61,31 +66,31 @@ export function setupInput(input: HTMLInputElement, output: HTMLParagraphElement
     setText('');
 }
 
-function getKey(keyCode: string, modifiers: Modifiers, keyMap: Array<Key>): number {
-    let code = 0;
+function getKey(keyCode: string, modifiers: Modifiers, keyMap: Array<KeyExtended>): Key {
+    let code: Key = { code: '', value: 0 };
 
     if (modifiers.KeyQ === true && modifiers.ShiftLeft === true) {
         keyMap.map((key) => {
             if (keyCode === key.code) {
-                code = key.modified.shift;
+                code = { code: key.code, value: key.modified.shift };
             }
         });
     } else if (modifiers.KeyQ === true) {
         keyMap.map((key) => {
             if (keyCode === key.code) {
-                code = key.modified.initial;
+                code = { code: key.code, value: key.modified.initial };
             }
         });
     } else if (modifiers.ShiftLeft === true) {
         keyMap.map((key) => {
             if (keyCode === key.code) {
-                code = key.regular.shift;
+                code = { code: key.code, value: key.regular.shift };
             }
         });
     } else {
         keyMap.map((key) => {
             if (keyCode === key.code) {
-                code = key.regular.initial;
+                code = { code: key.code, value: key.regular.initial };
             }
         });
     }
