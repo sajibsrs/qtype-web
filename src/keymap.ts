@@ -122,6 +122,11 @@ const keyMap: Array<KeyExtended> = [
         modified: { initial: 0, shift: 0 },
     },
     {
+        code: 'Period',
+        regular: { initial: 0x002e, shift: 0x0964 },
+        modified: { initial: 0, shift: 0 },
+    },
+    {
         code: 'Space',
         regular: { initial: 0x0020, shift: 0 },
         modified: { initial: 0, shift: 0 },
