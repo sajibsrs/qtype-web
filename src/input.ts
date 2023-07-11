@@ -1,7 +1,7 @@
 import keyMap from "./keymap";
 import { Key, KeyExtended, Modifiers } from "./types";
 
-export function setupInput(input: HTMLInputElement, output: HTMLParagraphElement) {
+export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElement) {
     const modifiers: Modifiers = {
         KeyQ: false,
         ShiftLeft: false,
