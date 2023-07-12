@@ -5,6 +5,7 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
     const modifiers: Modifiers = {
         KeyQ: false,
         ShiftLeft: false,
+        ControlLeft: false,
     };
 
     let text = '';
@@ -12,33 +13,45 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
     const setText = (currentCode: string) => {
         const key = getKey(currentCode, modifiers, keyMap);
 
-        if (key.value !== 0) {
+        if (modifiers.ControlLeft === false) {
             if (key.code === 'Backspace') {
                 text = text.slice(0, -1);
-            } else {
+            }
+            if (key.value !== 0) {
+
                 const character = String.fromCharCode(key.value);
                 text += character;
                 console.log(character)
-            }
 
+            }
+        } else {
+            if (key.code === 'Backspace') {
+                text = '';
+            }
         }
-        output.innerHTML = `${text}`;
+        // output.innerHTML = `${text}`;
+        input.value = text;
     }
 
     input.addEventListener('keydown', (e) => {
-        const keyCode = e.code;
+        if (modifiers.ControlLeft === false) {
+            e.preventDefault();
+        }
 
+        const keyCode = e.code;
         console.log(keyCode);
 
         switch (keyCode) {
             case 'KeyQ':
-                e.preventDefault();
-
                 modifiers.KeyQ = true;
                 break;
 
             case 'ShiftLeft':
                 modifiers.ShiftLeft = true;
+                break;
+
+            case 'ControlLeft':
+                modifiers.ControlLeft = true;
                 break;
 
             default:
@@ -57,6 +70,10 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
 
             case 'ShiftLeft':
                 modifiers.ShiftLeft = false;
+                break;
+
+            case 'ControlLeft':
+                modifiers.ControlLeft = false;
                 break;
 
             default:
