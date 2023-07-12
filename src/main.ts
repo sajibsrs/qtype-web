@@ -14,7 +14,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <sub class="left">ঋ</sub>
             W
             <sup class="right"></sup>
-            <sub class="right"></sub>
+            <sub class="right">ৎ</sub>
           </span>
           <span class="key">
             <sup class="left">ঐ</sup>
@@ -80,7 +80,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <sub class="left">আ</sub>
             A
             <sup class="right"></sup>
-            <sub class="right"></sub>
+            <sub class="right">অ</sub>
           </span>
           <span class="key">
             <sup class="left">শ</sup>
@@ -194,8 +194,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
       </div>
       <p id="text-output"></p>
-      <textarea id="text-input" cols="80" rows="10" spellcheck="false" placeholder="এখানে লিখুন...">
-      </textarea>
+      <textarea id="text-input" cols="80" rows="10" spellcheck="false" placeholder="এখানে লিখুন..."></textarea>
     </div>
   </div>
 `;
