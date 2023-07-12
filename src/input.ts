@@ -8,38 +8,25 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
         ControlLeft: false,
     };
 
-    let text = '';
-
     const setText = (currentCode: string) => {
         const key = getKey(currentCode, modifiers, keyMap);
 
         if (modifiers.ControlLeft === false) {
-            if (key.code === 'Backspace') {
-                text = text.slice(0, -1);
-            }
-            if (key.value !== 0) {
-
+            if (key.code !== '' && key.value !== 0) {
                 const character = String.fromCharCode(key.value);
-                text += character;
-                console.log(character)
-
-            }
-        } else {
-            if (key.code === 'Backspace') {
-                text = '';
+                input.value += character;
             }
         }
-        // output.innerHTML = `${text}`;
-        input.value = text;
     }
 
     input.addEventListener('keydown', (e) => {
-        if (modifiers.ControlLeft === false) {
-            e.preventDefault();
-        }
-
         const keyCode = e.code;
-        console.log(keyCode);
+
+        keyMap.forEach(key => {
+            if (keyCode === key.code && modifiers.ControlLeft === false) {
+                e.preventDefault();
+            }
+        });
 
         switch (keyCode) {
             case 'KeyQ':
