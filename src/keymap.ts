@@ -9,7 +9,7 @@ const keyMap: Array<KeyExtended> = [
     {
         code: 'KeyB',
         regular: { initial: 0x09ac, shift: 0x09ad },
-        modified: { initial: 0, shift: 0 },
+        modified: { initial: 0x0983, shift: 0 },
     },
     {
         code: 'KeyC',
@@ -84,7 +84,7 @@ const keyMap: Array<KeyExtended> = [
     {
         code: 'KeyR',
         regular: { initial: 0x09b0, shift: 0x09dc },
-        modified: { initial: 0x09dd, shift: 0x09c3 },
+        modified: { initial: 0x09dd, shift: 0 },
     },
     {
         code: 'KeyS',
@@ -104,6 +104,11 @@ const keyMap: Array<KeyExtended> = [
     {
         code: 'KeyV',
         regular: { initial: 0x09ad, shift: 0 },
+        modified: { initial: 0, shift: 0 },
+    },
+    {
+        code: 'KeyW',
+        regular: { initial: 0x098b, shift: 0x09c3 },
         modified: { initial: 0, shift: 0 },
     },
     {
@@ -133,9 +138,14 @@ const keyMap: Array<KeyExtended> = [
     },
     {
         code: 'Backspace',
-        regular: { initial: 0x0008, shift: 0 },
+        regular: { initial: 0, shift: 0 },
         modified: { initial: 0, shift: 0 },
     },
+    {
+        code: 'ControlLeft',
+        regular: { initial: 0, shift: 0 },
+        modified: { initial: 0, shift: 0 },
+    }
 ];
 
 export default keyMap;
