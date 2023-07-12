@@ -14,7 +14,7 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
         if (modifiers.ControlLeft === false) {
             if (key.code !== '' && key.value !== 0) {
                 const character = String.fromCharCode(key.value);
-                input.value += character;
+                input.setRangeText(character, input.selectionStart, input.selectionEnd, 'end');
             }
         }
     }
