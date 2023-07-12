@@ -17,6 +17,7 @@ type KeyExtended = {
 type Modifiers = {
     KeyQ: boolean,
     ShiftLeft: boolean,
+    ControlLeft: boolean,
 };
 
 export type {
