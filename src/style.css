@@ -128,13 +128,13 @@ textarea:focus-visible {
 }
 
 .key {
-  color: #83ac46;
-  font-weight: 500;
+  color: #83d143;
+  font-weight: 700;
   border-radius: 3px;
   position: relative;
   display: inline-block;
   background-color: #40425a;
-  padding: 24px 34px;
+  padding: 28px 36px;
   margin: 4px 2px;
 }
 
@@ -154,6 +154,7 @@ textarea:focus-visible {
 .key sub.right {
   color: #eeffd4;
   font-size: 1em;
+  font-weight: 500;
   padding: 0 5px;
 }
 
@@ -167,7 +168,7 @@ textarea:focus-visible {
   top: -2px;
   left: -6px;
   border-radius: 100px;
-  background-color: #3a64d8;
+  background-color: #3e6ef1;
 }
 
 .key sup.right span.q,
@@ -193,35 +194,35 @@ textarea:focus-visible {
   top: -2px;
   right: -6px;
   border-radius: 100px;
-  background-color: #3a64d8;
+  background-color: #3e6ef1;
 }
 
 .key sup.left {
   position: absolute;
   display: inline-block;
-  left: 8px;
-  top: 5px;
+  left: 12px;
+  top: 7px;
 }
 
 .key sub.left {
   position: absolute;
   display: inline-block;
-  left: 8px;
-  bottom: 5px;
+  left: 12px;
+  bottom: 7px;
 }
 
 .key sup.right {
   position: absolute;
   display: inline-block;
-  right: 8px;
-  top: 5px;
+  right: 12px;
+  top: 7px;
 }
 
 .key sub.right {
   position: absolute;
   display: inline-block;
-  right: 8px;
-  bottom: 5px;
+  right: 12px;
+  bottom: 7px;
 }
 
 @media (prefers-color-scheme: light) {
