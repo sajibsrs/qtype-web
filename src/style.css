@@ -119,6 +119,10 @@ textarea:focus-visible {
   font-size: 2rem;
 }
 
+#keyboard-layout {
+  margin-bottom: 80px;
+}
+
 .keyboard-row {
   text-align: center
 }
@@ -130,8 +134,13 @@ textarea:focus-visible {
   position: relative;
   display: inline-block;
   background-color: #40425a;
-  padding: 28px 36px;
+  padding: 24px 32px;
   margin: 4px 2px;
+}
+
+.keyboard-row.numbers .key {
+  background-color: #34365a;
+  padding: 24px 32px;
 }
 
 .key.mod.q-key {
