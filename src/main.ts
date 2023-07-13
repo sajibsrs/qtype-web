@@ -110,11 +110,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <sub class="right">ট</sub>
           </span>
           <span class="key">
-            <sup class="left"></sup>
+            <sup class="left">অ</sup>
             <sub class="left">য়</sub>
             Y
             <sup class="right"></sup>
-            <sub class="right"></sub>
+            <sub class="right">ঞ</sub>
           </span>
           <span class="key">
             <sup class="left">ঊ</sup>
@@ -152,7 +152,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <sub class="left">আ</sub>
             A
             <sup class="right"></sup>
-            <sub class="right">অ</sub>
+            <sub class="right"></sub>
           </span>
           <span class="key">
             <sup class="left">শ</sup>
