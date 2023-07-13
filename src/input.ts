@@ -22,6 +22,8 @@ export function setupInput(input: HTMLTextAreaElement, output: HTMLParagraphElem
     input.addEventListener('keydown', (e) => {
         const keyCode = e.code;
 
+        console.log(keyCode);
+
         keyMap.forEach(key => {
             if (keyCode === key.code && modifiers.ControlLeft === false) {
                 e.preventDefault();
