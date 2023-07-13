@@ -134,52 +134,52 @@ const keyMap: Array<KeyExtended> = [
     {
         code: 'Digit1',
         regular: { initial: 0x09e7, shift: 0x0021 },
-        modified: { initial: 0x0031, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit2',
         regular: { initial: 0x09e8, shift: 0x0040 },
-        modified: { initial: 0x0032, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit3',
         regular: { initial: 0x09e9, shift: 0x0023 },
-        modified: { initial: 0x0033, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit4',
         regular: { initial: 0x09ea, shift: 0x0024 },
-        modified: { initial: 0x0034, shift: 0x09f3 },
+        modified: { initial: 0, shift: 0x09f3 },
     },
     {
         code: 'Digit5',
         regular: { initial: 0x09eb, shift: 0x0025 },
-        modified: { initial: 0x0035, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit6',
         regular: { initial: 0x09ec, shift: 0x005e },
-        modified: { initial: 0x0036, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit7',
         regular: { initial: 0x09ed, shift: 0x0026 },
-        modified: { initial: 0x0037, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit8',
         regular: { initial: 0x09ee, shift: 0x002a },
-        modified: { initial: 0x0038, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit9',
         regular: { initial: 0x09ef, shift: 0x0028 },
-        modified: { initial: 0x0039, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Digit0',
         regular: { initial: 0x09e6, shift: 0x0029 },
-        modified: { initial: 0x0030, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'Period',

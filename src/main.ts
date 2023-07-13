@@ -11,70 +11,70 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <sub class="left">১</sub>
           1
           <sup class="right"></sup>
-          <sub class="right">1</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">@</sup>
           <sub class="left">২</sub>
           2
           <sup class="right"></sup>
-          <sub class="right">2</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">#</sup>
           <sub class="left">৩</sub>
           3
           <sup class="right"></sup>
-          <sub class="right">3</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">$</sup>
           <sub class="left">৪</sub>
           4
           <sup class="right">৳</sup>
-          <sub class="right">4</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">%</sup>
           <sub class="left">৫</sub>
           5
           <sup class="right"></sup>
-          <sub class="right">5</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">^</sup>
           <sub class="left">৬</sub>
           6
           <sup class="right"></sup>
-          <sub class="right">6</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">&</sup>
           <sub class="left">৭</sub>
           7
           <sup class="right"></sup>
-          <sub class="right">7</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">*</sup>
           <sub class="left">৮</sub>
           8
           <sup class="right"></sup>
-          <sub class="right">8</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">(</sup>
           <sub class="left">৯</sub>
           9
           <sup class="right"></sup>
-          <sub class="right">9</sub>
+          <sub class="right"></sub>
         </span>
         <span class="key">
           <sup class="left">)</sup>
           <sub class="left">০</sub>
           0
           <sup class="right"></sup>
-          <sub class="right">0</sub>
+          <sub class="right"></sub>
         </span>
       </div>
         <div class="keyboard-row">
@@ -265,7 +265,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           </span>
           <span class="key">
             <sup class="left">।</sup>
-            <sub class="left"></sub>
+            <sub class="left">.</sub>
             .
             <sup class="right"></sup>
             <sub class="right"></sub>
