@@ -5,6 +5,78 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <div class="card">
       <div id="keyboard-layout">
+      <div class="keyboard-row numbers">
+        <span class="key">
+          <sup class="left">!</sup>
+          <sub class="left">১</sub>
+          1
+          <sup class="right"></sup>
+          <sub class="right">1</sub>
+        </span>
+        <span class="key">
+          <sup class="left">@</sup>
+          <sub class="left">২</sub>
+          2
+          <sup class="right"></sup>
+          <sub class="right">2</sub>
+        </span>
+        <span class="key">
+          <sup class="left">#</sup>
+          <sub class="left">৩</sub>
+          3
+          <sup class="right"></sup>
+          <sub class="right">3</sub>
+        </span>
+        <span class="key">
+          <sup class="left">$</sup>
+          <sub class="left">৪</sub>
+          4
+          <sup class="right">৳</sup>
+          <sub class="right">4</sub>
+        </span>
+        <span class="key">
+          <sup class="left">%</sup>
+          <sub class="left">৫</sub>
+          5
+          <sup class="right"></sup>
+          <sub class="right">5</sub>
+        </span>
+        <span class="key">
+          <sup class="left">^</sup>
+          <sub class="left">৬</sub>
+          6
+          <sup class="right"></sup>
+          <sub class="right">6</sub>
+        </span>
+        <span class="key">
+          <sup class="left">&</sup>
+          <sub class="left">৭</sub>
+          7
+          <sup class="right"></sup>
+          <sub class="right">7</sub>
+        </span>
+        <span class="key">
+          <sup class="left">*</sup>
+          <sub class="left">৮</sub>
+          8
+          <sup class="right"></sup>
+          <sub class="right">8</sub>
+        </span>
+        <span class="key">
+          <sup class="left">(</sup>
+          <sub class="left">৯</sub>
+          9
+          <sup class="right"></sup>
+          <sub class="right">9</sub>
+        </span>
+        <span class="key">
+          <sup class="left">)</sup>
+          <sub class="left">০</sub>
+          0
+          <sup class="right"></sup>
+          <sub class="right">0</sub>
+        </span>
+      </div>
         <div class="keyboard-row">
           <span class="key mod q-key">
             Q
