@@ -263,6 +263,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <sup class="right"></sup>
             <sub class="right"></sub>
           </span>
+          <span class="key">
+            <sup class="left">।</sup>
+            <sub class="left"></sub>
+            .
+            <sup class="right"></sup>
+            <sub class="right"></sub>
+          </span>
         </div>
       </div>
       <p id="text-output"></p>
