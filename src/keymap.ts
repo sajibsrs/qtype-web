@@ -4,7 +4,7 @@ const keyMap: Array<KeyExtended> = [
     {
         code: 'KeyA',
         regular: { initial: 0x0986, shift: 0x09be },
-        modified: { initial: 0x0985, shift: 0 },
+        modified: { initial: 0, shift: 0 },
     },
     {
         code: 'KeyB',
@@ -123,8 +123,8 @@ const keyMap: Array<KeyExtended> = [
     },
     {
         code: 'KeyY',
-        regular: { initial: 0x09df, shift: 0 },
-        modified: { initial: 0, shift: 0 },
+        regular: { initial: 0x09df, shift: 0x0985 },
+        modified: { initial: 0x099e, shift: 0 },
     },
     {
         code: 'KeyZ',
