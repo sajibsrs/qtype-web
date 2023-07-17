@@ -19,7 +19,7 @@ Unicode type which is universally supported while ASCII causes many issues when 
 ### # Natural
 Qtype uses natural compound letter typing with no modification and uses **x** to write compound letters.
 
- | Key Combination | Letters | Letter |
- | --------------- | ------- | ------ |
- | k x q+s         | ক   ্ ষ | ক্ষ     |
- | q+y x c         | ঞ ্ চ    | ঞ্চ     |
+ | কি সমন্যয়   | বর্ন সমন্যয় | যুক্তবর্ন |
+ | ------- | ------- | ------ |
+ | k x q+s | ক   ্ ষ  | ক্ষ     |
+ | q+y x c | ঞ ্ চ    | ঞ্চ     |
