@@ -6,7 +6,7 @@
 ## বিশেষ্যতা (Specialties)
 
 ### # সাবলিল বর্ন বিন্যাস (Fluent key layout)
-বর্ন বিন্যাস ফনেটিক টাইপিং এর আনুরুপ। যে কারনে টাইপিং অনেক বেশি যৌক্তিক এবং সহজ মনেহয়।
+বর্ন বিন্যাস ফনেটিক টাইপিং এর অনুরুপ। যে কারনে টাইপিং অনেক বেশি যৌক্তিক এবং সহজ মনেহয়।
 
 Key layout is very similar to phonetic typing. Which makes it much logical and easy to write with.
 
