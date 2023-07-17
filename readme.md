@@ -11,7 +11,7 @@
 Key layout is very similar to phonetic typing. Which makes it much logical and easy to write with.
 
 ### # Unicode
-Unicode type which is universally supported and not ASCII mod, which causes many issues.
+Unicode type which is universally supported while ASCII causes many issues when writing, specially with the compound letters.
 
 ### # Double key modifiers
 **Q** and **Left Shift** keys as modifiers to support Bengali letters. **Q** is easier to use as a modifier, also it's easier when you have to press **Q** and **Left Shift** together to write different letters.
