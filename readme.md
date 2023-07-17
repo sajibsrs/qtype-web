@@ -19,8 +19,6 @@ Unicode type which is universally supported and not ASCII mod, which causes many
 ### # Natural
 Qtype uses natural compound letter typing with no modification and uses **x** to write compound letters.
 
-ক ->  ্ -> ষ = ক্ষ [k -> x -> q+s]
-
  | Key Combination | Letters | Letter |
  | --------------- | ------- | ------ |
  | k x q+s         | ক   ্  ষ | ক্ষ     |
