@@ -21,5 +21,5 @@ Qtype uses natural compound letter typing with no modification and uses **x** to
 
  | Key Combination | Letters | Letter |
  | --------------- | ------- | ------ |
- | k x q+s         | ক   ্  ষ | ক্ষ     |
+ | k x q+s         | ক   ্ ষ | ক্ষ     |
  | q+y x c         | ঞ ্ চ    | ঞ্চ     |
